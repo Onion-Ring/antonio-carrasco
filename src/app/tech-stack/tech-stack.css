@@ -1,0 +1,116 @@
+.git {
+    background: #6d4c39;
+}
+
+.css {
+    background: #39586d;
+}
+
+.sass {
+    background: #5c3e55;
+}
+
+.js {
+    background: #5c5c3e;
+}
+
+.ts {
+    background: #184868;
+}
+
+.ng {
+    background: #52008570;
+}
+
+.sql {
+    background: #4d3833;
+}
+
+.cosmos {
+    background: #7b8686;
+}
+
+.mongo {
+    background: #3e5c40;
+}
+
+.github {
+    background: #b6b6b6;
+}
+
+
+.stack-group {
+    width: 100%;
+    text-align: center;
+    margin: 4rem 0 4rem 0;
+}
+
+.stack-group h2{
+    margin-bottom: 1rem;
+}
+
+.stack-group__techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.stack-group__tech {
+    margin: 0.5rem 0 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border: 2px solid var(--color-border);
+    border-radius: 15px;
+    padding: 0.8rem;
+    background: var(--color-surface);
+    transition: border-color 0.4s ease-in-out,
+        background-color 0.4s ease-in-out;
+}
+
+
+
+
+.stack-group__tech:hover {
+    background-color: var(--color-surface-elevated);
+    border-color: var(--color-border-hover);
+
+}
+
+
+.stack-group img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.stack-group__tech-img-bg {
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 60px;
+    height: 60px;
+}
+
+
+@media (min-width:800px) {
+
+    .stack-group__tech {
+        width: 30%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .stack-group__techs {
+        flex-direction: row;
+
+    }
+
+    .stack-group h2 {
+        text-align: left;
+    }
+}
