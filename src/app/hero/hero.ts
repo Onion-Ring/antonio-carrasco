@@ -1,10 +1,11 @@
-import { Component, AfterContentInit, signal } from '@angular/core';
+import { Component, AfterContentInit, signal, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-hero',
   imports: [],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
+  encapsulation: ViewEncapsulation.None
 })
 
 export class Hero implements AfterContentInit {  

@@ -1,6 +1,6 @@
 /* CSS reset */
 * {
-    margin: 0;
+    margin: 0;    
     padding: 0;
     box-sizing: border-box;
 }
@@ -52,6 +52,12 @@ main {
     left: 5%;
     position: relative;
     margin-bottom: 3rem;
+}
+
+
+li {
+    list-style-type: square;
+    margin: 0.3rem 0 0.3rem 0;
 }
 
 p,
