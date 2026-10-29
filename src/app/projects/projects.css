@@ -20,7 +20,7 @@
     position: relative;       
 }
 
-.test::before {
+.img-frame::before {
     
     content: "";
     border: 6px solid var(--color-img-outer-border);
@@ -34,7 +34,7 @@
 }
 
 
-.test::after {
+.img-frame::after {
 
     content: "";
     border: 6px solid var(--color-img-outer-border);
@@ -47,7 +47,7 @@
     right: -6px;
 }
 
-.test2{
+.img-frame-container{
     position: relative;    
 }
 
