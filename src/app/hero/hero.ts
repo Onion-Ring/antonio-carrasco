@@ -10,8 +10,7 @@ import { SocialNetworks } from '../social-networks/social-networks';
 })
 
 export class Hero implements AfterContentInit {  
-
-  public openToWork = signal<boolean>(true);
+  
   public isHamburgerMenuOpen = signal<boolean>(false);
   public currentAge = signal<number>(0);
 
