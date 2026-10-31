@@ -1,0 +1,14 @@
+<div class="navigation">
+   
+
+    @for (section of pageSections; track $index) {
+
+        <a  [class.selected]="activeSection === $index"
+            class="navigation__item" 
+            [href]="'#'+section.id"
+            >
+            
+        </a>
+    }
+    
+</div>

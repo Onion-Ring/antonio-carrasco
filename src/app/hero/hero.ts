@@ -1,8 +1,9 @@
 import { Component, AfterContentInit, signal, ViewEncapsulation } from '@angular/core';
+import { SocialNetworks } from '../social-networks/social-networks';
 
 @Component({
   selector: 'app-hero',
-  imports: [],
+  imports: [SocialNetworks],
   templateUrl: './hero.html',
   styleUrl: './hero.css',
   encapsulation: ViewEncapsulation.None
