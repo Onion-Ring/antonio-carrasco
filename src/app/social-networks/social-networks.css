@@ -1,8 +1,11 @@
 .social {
-    display: flex;
+    margin: auto;
+    
+    display: inline-flex;
 }
 
 .social__item {
+    margin: auto;
     width: 70px;
     height: 70px;
 }
