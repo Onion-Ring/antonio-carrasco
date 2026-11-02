@@ -1,6 +1,5 @@
 .hero {
-    text-align: center;
-    margin-top: 6rem;
+    text-align: center;    
 }
 
 .hero__profile {
@@ -86,10 +85,8 @@
 
 .hero-desc {
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
-
-
-
 
 
 @media (min-width:800px) {
