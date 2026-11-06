@@ -77,8 +77,8 @@
 
 }
 
-.hero>h1,
-.hero>h2 {
+.hero h1,
+.hero h2 {
     padding: 0;
     margin-top: 1.5rem;
 }
@@ -87,6 +87,56 @@
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+.fade-in-top{
+    animation: fadeInTop 1.5s ease;
+}
+
+@keyframes fadeInTop {
+
+    from {
+        transform: translateY(-200%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.fade-in-bottom{
+    animation: fadeInBottom 1.5s ease;
+}
+
+@keyframes fadeInBottom {
+
+    from {
+        transform: translateY(200%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.fade-in-left{
+    animation: fadeInLeft 1.5s ease;
+}
+
+@keyframes fadeInLeft {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
 
 
 @media (min-width:800px) {

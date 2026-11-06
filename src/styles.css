@@ -144,3 +144,19 @@ button {
         font-size: 1.5rem;
     }
 }
+
+
+.fade-in-left {
+    animation: fadeInLeft 1.5s ease;
+}
+
+@keyframes fadeInLeft {
+
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
